@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     console.log("Get")
 });
 
-app.post('/', (req, res) => {
+app.post('/track-visit', (req, res) => {
     // Read the current visit count from visitData.json
     fs.readFile('./JSON/traffic.json', 'utf8', (err, data) => {
     if (err) {
