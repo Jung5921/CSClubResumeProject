@@ -1,4 +1,4 @@
-fetch('https://cs-club-resume-project.vercel.app/Scripts/server', {
+fetch('https://csclubresumeproject.onrender.com/Scripts/server', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
