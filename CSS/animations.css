@@ -1,0 +1,68 @@
+@keyframes phoneAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#telephone {
+animation: phoneAnimation 2s linear 2;
+}
+
+@keyframes codingAnimation {
+0% {
+    transform: translateX(0);
+}
+25% {
+    transform: translateX(2000px);
+}
+50% {
+    position: absolute;
+    left: -9000px
+}
+75% {
+    transform: translateX(-1000px);
+}
+100% {
+    transform: translateX(0px);
+}
+}
+#coding {
+animation: codingAnimation 4s linear 1;
+}
+@keyframes projectsAnimation {
+0% {color:black}
+50% {color: white}
+100% {color:black}
+}
+#projects {
+animation: projectsAnimation 0.5s ease-in-out 3;
+}
+@keyframes writingAnimation {
+0% {
+    transform: translateX(0);
+}
+25% {
+    transform: translateX(2000px);
+}
+50% {
+    position: absolute;
+    left: -9000px
+}
+75% {
+    transform: translateX(-1000px);
+} 
+100% {
+    transform: translateX(0px);
+}
+}
+#writing {
+animation: writingAnimation 4s linear 1;
+}
+@keyframes emptyAnimation {
+0% {}
+}
