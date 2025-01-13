@@ -1,4 +1,4 @@
-fetch('https://csclubresumeproject.onrender.com/track-visit', {
+fetch('https://csclubresumeproject.onrender.com/Scripts/server', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
