@@ -1,9 +1,9 @@
 {
   "name": "cs-club-resume-project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "vercel dev"
+    "start": "node Scripts/server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
