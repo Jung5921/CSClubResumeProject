@@ -40,10 +40,10 @@ module.exports = async (req, res) => {
             });
         console.log(`Request received: ${req.method} ${req.url}`);
         });
-});
+    });
 
-// Start the server
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-});
+    // Start the server
+    app.listen(port, () => {
+        console.log(`Server is running on http://localhost:${port}`);
+    });
 }
