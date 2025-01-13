@@ -8,9 +8,9 @@ fetch('http://127.0.0.1:4000/', {
 .then(response => response.json())
 .then(data => {
     console.log("Visit counted:", data);
-    console.log('Hello');
     const trafficDiv = document.getElementById('traffic-data');
-    trafficDiv.innerHTML = `<p>Visit Count: ${data.visits}</p>`;
+    const trafficArray = Object.values(data);
+    trafficDiv.innerHTML = `<p>Total website visits: ${trafficArray}</p>`;
 })
 .catch(error => {
     console.error("Error counting visit:", error);
